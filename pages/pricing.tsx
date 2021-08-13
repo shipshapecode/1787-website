@@ -1,10 +1,7 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import Features from '../components/features';
-import Hero from '../components/hero';
 import Pricing from '../components/pricing';
 
-export default function HomePage() {
+export default function PricingPage() {
   return (
     <div>
       <Head>
@@ -13,12 +10,7 @@ export default function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero />
-
-      <main>
-        <Features />
-        <Pricing />
-      </main>
+      <Pricing />
     </div>
   );
 }

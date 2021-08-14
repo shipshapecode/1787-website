@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Features from '../components/features';
 import Hero from '../components/hero';
+import Map from '../components/map';
 import Pricing from '../components/pricing';
 
 export default function HomePage() {
@@ -12,9 +13,9 @@ export default function HomePage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero />
-
       <main>
+        <Hero />
+        <Map />
         <Features />
         <Pricing />
       </main>

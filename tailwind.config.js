@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         gordon: 'Gordon',
       },
+      height: {
+        112: '28rem',
+      },
     },
   },
   variants: {

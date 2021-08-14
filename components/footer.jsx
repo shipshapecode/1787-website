@@ -1,3 +1,4 @@
+/* eslint-disable react/display-name */
 /* This example requires Tailwind CSS v2.0+ */
 const navigation = {
   solutions: [
@@ -98,11 +99,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
-            <img
-              className="h-10"
-              src="https://tailwindui.com/img/logos/workflow-mark-gray-300.svg"
-              alt="Company name"
-            />
+          <span className="font-gordon text-3xl">1787</span>
             <p className="text-gray-500 text-base">
               Making the world a better place through constructing elegant
               hierarchies.

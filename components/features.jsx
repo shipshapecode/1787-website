@@ -3,24 +3,24 @@ import { GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons
 
 const features = [
   {
-    name: 'Competitive rates',
+    name: 'Location',
     description: 'Consequuntur omnis dicta cumque, inventore atque ab dolores aspernatur tempora ab doloremque.',
     icon: GlobeAltIcon,
   },
   {
-    name: 'No hidden fees',
+    name: 'Internet',
     description:
       'Corporis quisquam nostrum nulla veniam recusandae temporibus aperiam officia incidunt at distinctio ratione.',
     icon: ScaleIcon,
   },
   {
-    name: 'Instant transfers',
+    name: 'Snacks and drinks',
     description:
       'Omnis, illo delectus? Libero, possimus nulla nemo tenetur adipisci repellat dolore eligendi velit doloribus mollitia.',
     icon: LightningBoltIcon,
   },
   {
-    name: 'Reminder emails',
+    name: 'Bookable Spaces',
     description:
       'Veniam necessitatibus reiciendis fugit explicabo dolorem nihil et omnis assumenda odit? Quisquam unde accusantium.',
     icon: MailIcon,
@@ -56,8 +56,8 @@ export default function Features() {
 
         <div className="relative lg:grid lg:grid-cols-3 lg:gap-x-8">
           <div className="lg:col-span-1">
-            <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              A better way to send money.
+            <h2 className="text-3xl font-extrabold font-gordon tracking-tight text-gray-900 sm:text-4xl">
+              Why 1787?
             </h2>
           </div>
           <dl className="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">

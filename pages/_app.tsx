@@ -1,3 +1,4 @@
+import '../global.css'
 import Layout from '../components/layout';
 import 'tailwindcss/tailwind.css';
 import type { AppProps } from 'next/app';

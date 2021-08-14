@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Features from '../components/features';
 import Hero from '../components/hero';
 import Pricing from '../components/pricing';

@@ -29,7 +29,7 @@ export default function Map() {
       <div className="max-w-7xl mx-auto w-full">
         <div className="flex justify-center h-112 overflow-hidden">
         <Image
-          className="object-cover"
+          className="object-cover transform scale-150"
           src="/img/map.png"
           alt=""
           height="1760"
